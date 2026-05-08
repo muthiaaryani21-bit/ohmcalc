@@ -1,0 +1,35 @@
+.v,.i,.r{
+  width:90px;
+  height:90px;
+  border:none;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+
+  color:white;
+  padding:0;
+  outline:none;
+
+  clip-path:polygon(50% 0%,0 100%,100% 100%);
+}
+
+.v{
+  background:#06b6d4;
+}
+
+.i{
+  background:#3b82f6;
+}
+
+.r{
+  background:#0ea5e9;
+}
+
+input::placeholder{
+  color:white;
+}
